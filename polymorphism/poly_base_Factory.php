@@ -4,7 +4,7 @@ class poly_base_Factory {
     public static function getWriter() {
         // grab request variable
 //        $format = $_REQUEST['format'];
-        $format = "XMLerror";
+        $format = "XML";
         // construct our class name and check its existence
         $class = 'poly_writer_' . $format . 'Writer';
         if(class_exists($class)) {

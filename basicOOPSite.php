@@ -9,7 +9,10 @@
     $page = new cpage("Welcome to my site!");
     $site->setPage($page);
 
-    $content = <<<EOT Welcome to my personal web site! EOT;
+    $content = <<<EOT 
+        Welcome to my personal web site! 
+EOT;
+    
     $page->setContent($content);
 
     $site->render();
