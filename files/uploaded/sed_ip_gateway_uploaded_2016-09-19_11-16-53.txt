@@ -1,4 +1,0 @@
-sed -i 's/IPADDR=192.168.105.61/IPADDR=192.168.107.62/' /etc/sysconfig/network-scripts/ifcfg-enccw0.0.0500
-sed -i 's/GATEWAY=192.168.106.1/GATEWAY=192.168.105.39/' /etc/sysconfig/network-scripts/ifcfg-enccw0.0.0500
-
-Testing the lock with an append...
